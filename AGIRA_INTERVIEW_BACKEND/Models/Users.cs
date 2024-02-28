@@ -7,8 +7,7 @@ namespace AGIRA_INTERVIEW_BACKEND.Models
         SuperAdmin,
         HR,
         Interviewer,
-        Associate,
-        // Add more roles as needed
+   
     }
     public class Users
     {
