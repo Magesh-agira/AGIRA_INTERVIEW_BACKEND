@@ -1,0 +1,6 @@
+@AGIRA_INTERVIEW_BACKEND_HostAddress = http://localhost:5209
+
+GET {{AGIRA_INTERVIEW_BACKEND_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
