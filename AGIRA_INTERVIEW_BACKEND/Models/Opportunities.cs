@@ -23,7 +23,7 @@ namespace AGIRA_INTERVIEW_BACKEND.Models
 
         public string Qualification { get; set; }
 
-        public decimal Salary { get; set; }
+        public decimal Salary { get; set; } //done commiting
 
         [Required]
         public DateTime DatePosted { get; set; }
