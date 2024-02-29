@@ -1,0 +1,38 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AGIRA_INTERVIEW_BACKEND.Dtos
+{
+    public class OpportunityDto
+    {
+        public int OpportunityId { get; set; }
+
+        [Required]
+        public string Position { get; set; }
+
+        public string Location { get; set; }
+
+        public string TypeOfEmployment { get; set; }
+
+        public string Qualification { get; set; }
+
+        public decimal Salary { get; set; }
+
+        [Required]
+        public DateTime DatePosted { get; set; }
+
+        [Required]
+        public int NumberOfOpenings { get; set; }
+
+        public string Requirements { get; set; }
+
+        [Required]
+        public OpportunityStatusDto Status { get; set; }
+    }
+
+    public enum OpportunityStatusDto
+    {
+        Open,
+        Closed,
+        Hold
+    }
+}
